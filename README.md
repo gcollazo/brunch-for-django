@@ -9,8 +9,11 @@ This is a very simple [Brunch](http://brunch.io) skeleton for [Django](http://dj
 - Source Maps
 - Browser auto-reload
 
-### Getting Started
+### Example Project
+You should check out the [example project](https://github.com/gcollazo/brunch-for-django-example).
 
+
+### Getting Started
 First you will need to create a `static` folder on the root of your Django project, right next to `manage.py`.
 
 ```
