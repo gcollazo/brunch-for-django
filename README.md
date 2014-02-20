@@ -110,7 +110,6 @@ class Command(StaticfilesRunserverCommand):
             os.kill(pid, signal.SIGTERM)
 
         atexit.register(kill_brunch_process, self.brunch_process.pid)
-
 ```
 
 Before running the command we must add the `core` app to `INSTALLED_APPS`.
