@@ -113,6 +113,22 @@ class Command(StaticfilesRunserverCommand):
 
 ```
 
+Before running the command we must add the `core` app to `INSTALLED_APPS`.
+
+```python
+# settings.py
+
+INSTALLED_APPS = (
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'core',  # <-- Here
+)
+```
+
 Now you should be able to run
 
 ```
