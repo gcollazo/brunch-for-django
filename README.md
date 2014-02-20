@@ -60,9 +60,11 @@ Create an app on your project.
 ```
 $ manage.py startapp core
 $ cd core
+
 $ mkdir management
 $ cd management
 $ touch __init__.py
+
 $ mkdir commands
 $ cd commands
 $ touch __init__.py
