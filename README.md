@@ -43,7 +43,7 @@ Now navigate to `http://localhost:3333` and make sure you see a success message.
 
 Notice that the brunch command created a `dist` folder right next to the `src` folder we created earlier. This is where all the compiled and minified files are going to go.
 
-Now we must change our Django `settings.py` so that when we do `manage.py collectstatic` the command knows where to get the files from, the `diet` folder.
+Now we must change our Django `settings.py` so that when we do `manage.py collectstatic` the command knows where to get the files from, the `dist` folder.
 
 ```python
 # settings.py
